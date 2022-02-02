@@ -22,7 +22,7 @@ export const difficulty = {
   normal: 'normal',
   hard: 'hard',
 }
-
+// to get a random answer
 const getRandomAnswer = () => {
   const randomIndex = Math.floor(Math.random() * answers.length)
   return answers[randomIndex].toUpperCase()
